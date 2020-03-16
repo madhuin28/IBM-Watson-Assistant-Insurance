@@ -49,8 +49,8 @@ IBM Watson Chatbot to demonstrate how a user's emotional tone can be used to pro
     Example *.env* file that configures the `apikey` and `url` for a Watson Assistant service instance hosted in the US East region:
 
     ```
-    ASSISTANT_IAM_APIKEY=X4rbi8vwZmKpXfowaS3GAsA7vdy17Qh7km5D6EzKLHL2
-    ASSISTANT_URL=https://gateway-wdc.watsonplatform.net/assistant/api
+    ASSISTANT_IAM_APIKEY=<your-apikey>
+    ASSISTANT_URL=<your-assistant-url>
     ```
 
     If your service instance uses `username` and `password` credentials, add the `ASSISTANT_USERNAME` and `ASSISTANT_PASSWORD` variables to the *.env* file.
@@ -58,19 +58,19 @@ IBM Watson Chatbot to demonstrate how a user's emotional tone can be used to pro
     Example *.env* file that configures the `username`, `password`, and `url` for a Watson Assistant service instance hosted in the US South region:
 
     ```
-    ASSISTANT_USERNAME=522be-7b41-ab44-dec3-g1eab2ha73c6
-    ASSISTANT_PASSWORD=A4Z5BdGENrwu8
-    ASSISTANT_URL=https://gateway.watsonplatform.net/assistant/api
+    ASSISTANT_USERNAME=<your-assistant-username>
+    ASSISTANT_PASSWORD=<your-assitant-password>
+    ASSISTANT_URL=<your-assistant-url>
     ```
 
 8. Add the `WORKSPACE_ID` to the previous properties
 
     ```
-    WORKSPACE_ID=522be-7b41-ab44-dec3-g1eab2ha73c6
+    WORKSPACE_ID=<your-workspace-id>
     ```
 
 
-9. Your `.env` file  should looks like:
+9. Your `.env` file  should looks like (for example):
 
     ```
     # Environment variables
