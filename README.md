@@ -30,7 +30,7 @@ IBM Watson Chatbot to demonstrate how a user's emotional tone can be used to pro
 
 2. Click the **Import workspace** icon in the Watson Assistant service tool. Specify the location of the workspace JSON file in your local copy of the app project:
 
-   `<project_root>/food-coach/training/food-coach-workspace.json`
+   `<project_root>/IBM-Watson-Assistant-Insurance/training/skill-INSURANCE-BOT.json`
 
 3. Select **Everything (Intents, Entities, and Dialog)** and then click **Import**. The car dashboard workspace is created.
 
